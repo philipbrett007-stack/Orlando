@@ -1,6 +1,5 @@
 import React from 'react';
 import { Mail, RefreshCw, Send, Check, Copy } from 'lucide-react';
-import { GoogleSignInButton } from './GoogleSignInButton';
 
 interface HeaderProps {
   activeTab: 'email-preview' | 'deals' | 'matrix' | 'raw-data' | 'schedule';
@@ -95,13 +94,8 @@ export const Header: React.FC<HeaderProps> = ({
           </button>
         </nav>
 
-        {/* Zone 3: Primary Actions & Auth */}
+        {/* Zone 3: Primary Actions */}
         <div className="flex items-center gap-2">
-          {/* Google Sign-in / status button */}
-          <div className="hidden lg:block">
-            <GoogleSignInButton compact />
-          </div>
-
           <button
             onClick={onRefreshData}
             disabled={isRefreshing}
@@ -125,7 +119,7 @@ export const Header: React.FC<HeaderProps> = ({
             className="inline-flex items-center gap-1.5 rounded-lg bg-amber-500 px-3 py-1.5 text-xs font-semibold text-slate-950 transition-colors hover:bg-amber-400 active:bg-amber-600 shadow-sm"
           >
             <Send className="h-3.5 w-3.5" />
-            <span>Send Real Email</span>
+            <span>Send Email Briefing</span>
           </button>
         </div>
       </div>

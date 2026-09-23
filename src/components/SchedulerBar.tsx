@@ -48,7 +48,7 @@ export const SchedulerBar: React.FC<SchedulerBarProps> = ({ config, onOpenSchedu
             className="inline-flex items-center gap-1.5 rounded-md bg-amber-500/10 px-2.5 py-1 text-xs font-semibold text-amber-400 hover:bg-amber-500/20 transition-colors"
           >
             <Send className="h-3 w-3" />
-            <span>Send Email to Inbox</span>
+            <span>Send / Export Briefing</span>
           </button>
 
           <button
