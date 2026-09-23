@@ -1,0 +1,6 @@
+{
+  "name": "Universal Orlando Ticket Price Monitor",
+  "description": "Automated weekly ticket price tracking and responsive HTML email dispatch system for Universal Orlando Resort.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
